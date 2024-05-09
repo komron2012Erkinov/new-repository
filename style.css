@@ -1,0 +1,103 @@
+*,
+::before,
+::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.box {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	color: #fff;
+}
+
+.card {
+	width: 280px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	transition: 0.4s ease;
+	cursor: pointer;
+}
+
+.card p {
+	margin-top: 20px;
+}
+
+.card__icon {
+	width: 70px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	border-radius: 50%;
+	z-index: 2;
+}
+
+.home {
+	background-color: #d47c27;
+}
+
+.file {
+	background-color: #ef9f3e;
+}
+
+.google {
+	background-color: #34a1c9;
+}
+
+.apple {
+	background-color: #3b7fb2;
+}
+
+.html {
+	background-color: #3b5267;
+}
+
+.correo {
+	background-color: #36444f;
+}
+
+.brown {
+	background-color: #d36504;
+}
+
+.orange {
+	background-color: #ea9117;
+}
+
+.blue {
+	background-color: #1492bb;
+}
+
+.indigo {
+	background-color: #166ba2;
+}
+
+.peacock {
+	background-color: #1a3749;
+}
+
+.denim {
+	background-color: #162737;
+}
+
+.card:hover {
+	transform: scale(1.1);
+}
